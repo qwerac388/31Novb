@@ -4,11 +4,12 @@ body{
 
 h1{
     text-align: center;
-    font-size: 80px;
+    font-size: 100px;
 }
 
 .line{
-    border : 1px solid black;
+    border : 3px solid black;
+    border-radius: 10px;
     width: 900px;
     margin:auto;
 }
@@ -17,6 +18,7 @@ h1{
 .container{
     display: flex;
     justify-content: center;
+    margin-top: 60px ;
 }
 
 
@@ -24,83 +26,111 @@ h1{
     height: 700px;
     width: 150px;
     margin:10px;
-    filter: grayscale(100%);
+    filter: grayscale(80%);
+    border-radius: 10px;
 }
 
 .one{
-    background-image: url(https://cdn.britannica.com/84/73184-050-05ED59CB/Sunflower-field-Fargo-North-Dakota.jpg)}
+    background-image: url(https://cdn.britannica.com/84/73184-050-05ED59CB/Sunflower-field-Fargo-North-Dakota.jpg);
+    background-position: center;}
 
 
 .one:hover{
     background-image: url(https://cdn.britannica.com/84/73184-050-05ED59CB/Sunflower-field-Fargo-North-Dakota.jpg);
     filter: grayscale(0%);
-    transform:scale(1.2);
+    transform:scale(1.1);
+    transition: 0.3s ease-out;
+    background-position: center;
 }
 
 .two{
     background-image: url(https://cdn.firstcry.com/education/2022/12/12101916/Flower-Names-In-English-For-Kids.jpg);
+    background-position: center;
 }
 
 .two:hover{
     background-image: url(https://cdn.firstcry.com/education/2022/12/12101916/Flower-Names-In-English-For-Kids.jpg);
     filter: grayscale(0%);
-    transform:scale(1.2);
+    transform:scale(1.1);
+    transition: 0.3s ease-out;
+    background-position: center;
 }
+
 .three{
-    background-image: url(https://contentgrid.homedepot-static.com/hdus/en_US/DTCCOMNEW/Articles/discover-the-secret-language-of-flowers-2022-thumbnail.jpeg);
+    background-image: url(https://hips.hearstapps.com/hmg-prod/images/summer-flowers-64418cf119d36.jpg);
+    background-repeat: no-repeat;
 }
 
 .three:hover{
-    background-image: url(https://contentgrid.homedepot-static.com/hdus/en_US/DTCCOMNEW/Articles/discover-the-secret-language-of-flowers-2022-thumbnail.jpeg);
+    background-image: url(https://hips.hearstapps.com/hmg-prod/images/summer-flowers-64418cf119d36.jpg);
     filter: grayscale(0%);
-    transform:scale(1.2);
+    transform:scale(1.1);
+    transition: 0.3s ease-out;
+    background-repeat: no-repeat;
 }
 .four{
     background-image: url(https://www.1800flowers.com/blog/wp-content/uploads/2021/05/Birthday-Flowers-Colors.jpg.webp);
+    background-position: center;
 }
 
 .four:hover{
     background-image: url(https://www.1800flowers.com/blog/wp-content/uploads/2021/05/Birthday-Flowers-Colors.jpg.webp);
     filter: grayscale(0%);
-    transform:scale(1.2);
+    transform:scale(1.1);
+    transition: 0.3s ease-out;
+    background-position: center;
 }
 
 .five{
-    background-image: url(https://hips.hearstapps.com/hmg-prod/images/types-of-garden-flowers-purple-allium-1674847068.jpeg);
+    background-image: url(https://darceyflowers.ae/wp-content/uploads/2021/12/Birthday-Flower-Ideas-for-Daughter.webp);
+    background-position: center;
+
 }
 
 .five:hover{
-    background-image: url(https://hips.hearstapps.com/hmg-prod/images/types-of-garden-flowers-purple-allium-1674847068.jpeg);
+    background-image: url(https://darceyflowers.ae/wp-content/uploads/2021/12/Birthday-Flower-Ideas-for-Daughter.webp);
     filter: grayscale(0%);
-    transform:scale(1.2);
+    transform:scale(1.1);
+    transition: 0.3s ease-out;
+    background-position: center;
+    background-repeat:no-repeat;
 }
 
 .six{
-    background-image: url(https://hips.hearstapps.com/hmg-prod/images/sacred-lotus-gettyimages-1143403162-646fa5a441f5d.jpg?crop=0.535xw:1.00xh;0.0519xw,0&resize=980:*);
+    background-image: url(https://www.croydonflowerhouse.co.uk/Websites/1131/Images/upload/image/slide1New.jpg?ver=2779);
+    background-position: center;
 }
 
 .six:hover{
-    background-image: url(https://hips.hearstapps.com/hmg-prod/images/sacred-lotus-gettyimages-1143403162-646fa5a441f5d.jpg?crop=0.535xw:1.00xh;0.0519xw,0&resize=980:*);
+    background-image: url(https://www.croydonflowerhouse.co.uk/Websites/1131/Images/upload/image/slide1New.jpg?ver=2779);
     filter: grayscale(0%);
-    transform:scale(1.2);
+    transform:scale(1.1);
+    transition: 0.3s ease-out;
+    background-position: center;
 }
+
 .seven{
-    background-image: url(https://hips.hearstapps.com/vidthumb/images/gettyimages-514641282-1615828440.jpg?crop=1.00xw:0.848xh;0,0);
+    background-image: url(https://www.farmersalmanac.com/wp-content/uploads/2021/04/forget-me-not-flower-as309740666.jpeg);
 }
 
 .seven:hover{
-    background-image: url(https://hips.hearstapps.com/vidthumb/images/gettyimages-514641282-1615828440.jpg?crop=1.00xw:0.848xh;0,0);
+    background-image: url(https://www.farmersalmanac.com/wp-content/uploads/2021/04/forget-me-not-flower-as309740666.jpeg);
     filter: grayscale(0%);
-    transform:scale(1.2);
+    transform:scale(1.1);
+    transition: 0.3s ease-out;
 }
+
 .eight{
-    background-image: url(https://katehillflowers.com.au/cdn/shop/articles/Flower-Meanings_1200x1200.jpg?v=1567823901);
+    background-image: url(https://www.suttons.co.uk/images/slides/highlight-flower-plants.jpg);
+    background-position: center;
 }
 
 .eight:hover{
-    background-image: url(https://katehillflowers.com.au/cdn/shop/articles/Flower-Meanings_1200x1200.jpg?v=1567823901);
+    background-image: url(https://www.suttons.co.uk/images/slides/highlight-flower-plants.jpg);
     filter: grayscale(0%);
-    transform:scale(1.2);
+    transform:scale(1.1);
+    transition: 0.3s ease-out;
+    background-position: center;
 }
 
 /*media*/
@@ -120,14 +150,13 @@ h1{
 
 /*mobile*/
 @media screen and (max-width:480px){
-
     .container{
-    flex-wrap: wrap;
-    }
-    .line{
-        width:70%;
-    }
+        flex-wrap: wrap;
+        }
+        .line{
+            width:70%;
+        }
     .box{
-        height: 200px;
-        width:100px;}
+        height: 300px;
+        width:150px;}
 }
